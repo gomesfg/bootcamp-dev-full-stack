@@ -1,0 +1,32 @@
+body{        
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    display: table;
+    width: 30%;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+}
+.container-cubo{        
+    width: 30%;
+    display: flex;
+    margin-left:auto; 
+    margin-right:auto;
+    align-items: center;
+    justify-content: center;
+}
+#cubo{    
+    width: 100px;
+    height: 100px;    
+    background-color: black;                   
+}
+.item{
+    display: table-row;
+}
+.center {	
+	display: table-cell;
+	padding: 3px 10px;
+}
