@@ -14,7 +14,7 @@ import clientesespeciaisRoute from './routes/clientesespeciaisRoute.js';
 const connect = async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://felipegomes:admin@cluster0.16aru.mongodb.net/bank?retryWrites=true&w=majority',
+      'mongodb+srv://<user>:<password>@cluster0.16aru.mongodb.net/<dbname>?retryWrites=true&w=majority',
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
